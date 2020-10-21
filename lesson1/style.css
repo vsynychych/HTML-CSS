@@ -1,0 +1,23 @@
+h1{
+    color: darkblue;
+    text-align: center;
+}
+body {
+    background: #d7d7d7;
+}
+
+ .italic {
+    color: #920000;
+     font-style: italic;
+}
+.justify{text-align: justify
+}
+.div{
+   border: 2px solid #000000;
+    border-radius: 50px;
+    background: #b1b1b1;
+}
+.left{
+    float: right;
+    padding: 8px;
+    margin: 5px;}
