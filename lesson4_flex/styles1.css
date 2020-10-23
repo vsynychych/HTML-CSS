@@ -1,0 +1,29 @@
+.black{
+    border: 3px solid black;
+    height: 600px;
+    width: 800px;
+}
+.orange{
+    background: orange;
+    width: 800px;
+    height: 100px;
+}
+.size{
+    width: 200px;
+    height: 400px;
+}
+.red{
+    background: red;
+}
+.green{
+    background: green;
+}
+.blue{
+    background: blue;
+}
+.yellow{
+    background: yellow;
+}
+.flex{
+    display: flex;
+}
