@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600;700;800;900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -12,10 +13,11 @@
     align-items: center;
     background: white;
     height: 25px;
+    cursor: pointer;
 }
 .nav-items1{
     padding: 0 8px;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: bold;
     text-decoration: none;
 }
@@ -24,7 +26,7 @@
 }
 .header-top{
     background: #7e0019;
-    height: 100px;
+    height: 120px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -34,6 +36,7 @@
     justify-content: center;
     align-items: center;
     height: 30px;
+    cursor: pointer;
 }
 .nav-items2{
     padding: 0 12px;
@@ -53,8 +56,8 @@
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .icon-menu{
     display: flex;
@@ -78,7 +81,7 @@
 .menu1{
     font-weight: 600;
     color: white;
-    font-size: 12px;
+    font-size: 14px;
     font-family: 'Fira Sans', sans-serif;
     padding: 10px;
 }
@@ -89,19 +92,20 @@
 }
 .logo-info{
     color: white;
-    font-weight: 800;
-    font-size: 32px;
+    font-weight: 600;
+    font-size: 40px;
 }
 .logo-info2{
     color: white;
     font-family: 'Fira Sans', sans-serif;
-    font-size: 11px;
+    font-size: 12px;
 }
 .icon-menu2{
     width: 200px;
     height: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .lang{
     color: white;
@@ -112,12 +116,82 @@
     text-align: center;
 }
 .button{
-    background: #a5001f;
+    display: flex;
+    background: #7e0019;
     width: 90px;
     height: 40px;
-    border-radius: 15%;
-    font-size: 14px;
-    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 10%;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+.button-text {
     color: white;
-    border-bottom: white;
+    font-weight: bold;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+.header2{
+    height: 450px;
+    width: 100%;
+    background: #3b3b3e;
+    box-sizing: border-box;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.header-top2{
+    width: 100%;
+    height: 250px;
+    border-bottom: 1px solid silver;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+.left img{
+    width: 231px;
+    height: 163px;
+}
+.right{
+    width: 100%;
+    height: 200px;
+    padding-left: 30px;
+}
+.text-right1{
+    color: white;
+    font-size: 56px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.text-right2{
+    color: white;
+    font-size: 24px;
+}
+.header-bottom{
+    display: flex;
+    height: 200px;
+    width: 100%;
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    align-items: center;
+}
+.text1{
+    height: 150px;
+    width: 25%;
+    padding: 0 10px;
+    border-right: 1px solid silver;
+    display: flex;
+    justify-content: space-between;
+}
+.text4{
+    padding: 0 10px;
+    height: 150px;
+    width: 25%;
+}
+.block{
+    background: #7e0019;
+    height: 20px;
+    width: 60px;
 }
